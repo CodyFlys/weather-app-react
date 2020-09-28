@@ -6,7 +6,7 @@ import { FaThermometerEmpty, FaThermometerFull } from 'react-icons/fa';
 
 export const Conditions = (props) => {
 
-    let currentDate = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+    let currentDate = moment().format("dddd, MMMM Do YYYY, h:mm a");
     let tomorrowDate = moment().add(1,'day').format("dddd, MMMM Do YYYY");
     let nextDayDate = moment().add(2,'day').format("dddd, MMMM Do YYYY");
     let dayThree = moment().add(3,'day').format("dddd, MMMM Do YYYY");
