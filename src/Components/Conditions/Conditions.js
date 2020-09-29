@@ -13,8 +13,6 @@ export const Conditions = (props) => {
     let dayFour = moment().add(4,'day').format("dddd, MMMM Do YYYY");
     let dayFive = moment().add(5,'day').format("dddd, MMMM Do YYYY");
 
-    console.log(props.weatherforcast)
-
     //300K × 9/5 - 459.67
     let fTemp = (temp) => {
         return Math.round(temp * (9/5) - 459.67);

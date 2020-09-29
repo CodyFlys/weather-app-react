@@ -7,7 +7,6 @@ import { Conditions } from '../Conditions/Conditions';
 
 export const Forcast = () => {
 
-    let [unit, setUnit] = useState('imperial')
     let [zipcode, setZipCode] = useState(98037)
     let [weather, setWeather] = useState({})
     let [weatherforcast, setWeatherForcast] = useState([{}])
